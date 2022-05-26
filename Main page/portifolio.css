@@ -1,0 +1,109 @@
+body{
+
+	background-color:#00203fff;
+	background-image: url(mine.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+ul{ 
+	list-style-type:none;
+}
+li a{
+	display:block;
+	width: 60px;
+	padding:25px;
+  text-decoration: none;
+  color:pink;
+  position: relative;
+  bottom:50px;
+  right:70px;
+
+}
+li{
+	float: right;
+	margin-top:0px;
+	padding-top:0px;
+
+
+}
+
+
+	li a:hover{
+		background-color:black;
+
+	}
+/*li a.active {
+  background-color:white;
+  color:black;
+  margin: 20px;
+}
+*/
+	.hi{
+
+border:5px solid pink;
+width:300px;
+padding: 0px;
+margin-left:900px;
+border-radius:150%;
+
+	}
+	h1{
+		color:#ADEFDF;
+	}
+
+	
+	p{
+
+		color: white;
+		font: sans-serif;
+		font-size: 20px;
+		height: 215px;
+        width: 460px;
+		text-align: center;
+		padding-top:30px;
+		padding-bottom:30px;
+		border-style:solid;
+		position:relative;
+		left:500px;
+		bottom:50px;
+		margin-top:50px;
+		padding-left:20px;
+		padding-right:20px;
+  border-width:2px;
+border-color: pink;
+}
+
+
+.ama a{
+	color:black;
+	float:left;
+	text-shadow:50px;
+	font-family: sans-serif;
+	font-weight:bolder;
+ font-size:17px;
+ padding: 20px;
+ position:relative;
+ bottom:400px;
+ text-decoration:none;
+
+
+}
+
+.ama a:hover{
+	background-color: pink;
+}
+     
+h3{
+	position:relative;
+color: white;
+bottom:80px;
+left: 1000px;
+
+
+	
+}
+
+
+	/* This is a single-line comment */
