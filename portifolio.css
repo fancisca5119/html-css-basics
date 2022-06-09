@@ -1,8 +1,9 @@
 body{
 
-	background-color:#00203fff;
+	background-color:#00201fff;
 	background-image: url(mine.jpg);
 	background-repeat: no-repeat;
+    overflow: scroll;
 }
 
 
@@ -10,36 +11,37 @@ body{
 ul{ 
 	list-style-type:none;
 }
+
 li a{
-	display:block;
-	width: 60px;
-	padding:25px;
+ display:block;
+  width: 60px;
+  padding:25px;
   text-decoration: none;
   color:pink;
   position: relative;
   bottom:50px;
   right:70px;
-
 }
+
+
 li{
 	float: right;
 	margin-top:0px;
-	padding-top:0px;
-
-
+    padding-top:0px;
 }
 
 
 	li a:hover{
-		background-color:black;
+	background-color:black;
+}
 
-	}
 /*li a.active {
   background-color:white;
   color:black;
   margin: 20px;
 }
 */
+
 	.hi{
 
 border:5px solid pink;
@@ -47,14 +49,22 @@ width:300px;
 padding: 0px;
 margin-left:900px;
 border-radius:150%;
-
 	}
+
 	h1{
 		color:#ADEFDF;
-	}
+	   }
+
+
+	.mail{
+	position:relative;
+    color: white;
+    bottom:80px;
+    left: 1000px;	
+     }
 
 	
-	p{
+	.amaa{
 
 		color: white;
 		font: sans-serif;
@@ -94,16 +104,232 @@ border-color: pink;
 .ama a:hover{
 	background-color: pink;
 }
+
+
      
-h3{
-	position:relative;
-color: white;
-bottom:80px;
-left: 1000px;
+#Gallery{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+
+.Gallery{
+		color:pink;
+		text-align: center;
+		font-family: sans-serif;
+		text-shadow:70px;
+		font-size: 30px;
+		letter-spacing:20px;
+		text-transform: uppercase;
+		border: 2px solid white;
+		border-radius:10px;
+		padding: 5px;
+	}
 
 
 	
+
+
+.Gallery1{
+
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+	font-size:20px;
+	font-style: italic;
+	margin-top:80px;
 }
+
+
+
+
+.EXPERIENCE{
+text-align: left;
+font-family: sans-serif;
+color:white;
+letter-spacing:20px;
+border: 2px solid pink;
+border-radius:10px;
+padding:5px;
+text-shadow:70px;
+font-size: 30px;
+ width: 40%;
+ margin-bottom:80px;
+}
+
+
+
+#Experience{
+	text-align:center;
+	margin:600px 50px;
+	text-indent: 50px;
+
+}
+
+.EXP{
+	float:left;
+	color:white;
+	font: sans-serif;
+	font-size:20px;
+text-align: left;
+width: 40%;
+border-bottom: 1px dotted pink;
+padding-bottom:10px;
+}
+
+.MYEXP{
+	color:pink;
+	font-family: sans-serif;
+	font-size:30px; 
+	margin-top:80px;
+	text-align: left;
+}
+.img{
+	width:50%;
+	height:380px;
+	position: relative;
+	left:340px;
+	bottom:432px;
+}
+
+#Contact{
+	width: 500px;
+	line-height:50px;
+	margin-bottom:0px;
+	}
+
+.CONTACT{
+text-align:center;
+font-family: sans-serif;
+color:white;
+letter-spacing:20px;
+border: 2px solid pink;
+border-radius:10px;
+padding:10px;
+text-shadow:70px;
+font-size: 30px;
+ width:85%;
+ margin-top:200px;
+ position: relative;
+ left:0px;
+}
+
+	
+
+.gal{
+	color:white;
+	margin-top:80px;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: relative;
+	right:300px;
+	margin-bottom:0px;
+	
+
+}
+.myform{
+	position: relative;
+	right: 300px;
+	color: pink;
+	font-family: sans-serif;
+	font-size:15px;
+
+}
+.button{
+	background-color:pink;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  position:relative;
+  left: 600px;
+  border-radius:80%;
+bottom: 150px;
+cursor:pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color:cyan;
+  color: white;
+}
+
+
+.button span:after {
+  content: '\00bb';
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right:15px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+footer{
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin:50px;
+	text-align: center;
+}
+/*.exp{
+	color: white;
+	float: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	margin:100px;
+
+
+}*/
+/*@media only screen and (max-width: 100px) {
+  body {
+    background-color: lightblue;
+  }
+}.jolly{
+	color:red;
+	text-align:center;
+	margin-top:500px;
+	margin-bottom:0px;
+}*/
+
+
+/*.column {
+  float: left;
+  width:100%;
+  padding:20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+
+/*.jolly{
+	letter-spacing:20px;
+	font-style: bold;
+	color: white;
+	border:2px dotted pink;
+	padding-top:70px;
+	margin-bottom:70px;
+	margin:150px 50px;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	right:200px;}*/
 
 
 	/* This is a single-line comment */

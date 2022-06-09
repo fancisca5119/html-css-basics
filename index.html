@@ -5,9 +5,11 @@
 	<title>MY Portifolio</title>
 </head>
 <link rel="stylesheet" type="text/css" href="./portifolio.css">
+<!--<link rel="stylesheet" href="css/bootstrap.css">-->
 <body>
-	<h1><marquee><strong>WELCOME TO MY PORTIFOLIO</strong></marquee></h1>
-    <h3>Email: sampsonama98@gmail.com</h3>
+ 
+<h1><marquee><strong>WELCOME TO MY PORTFOLIO</strong></marquee></h1>
+    <h3 class="mail">Email: sampsonama98@gmail.com</h3>
 
 
 
@@ -15,7 +17,7 @@
 		<li><a href="#Contact">CONTACT</a></li>
 		<li><a href="#Experience">EXPERIENCE</a></li>
 		<li><a href="#Gallery">GALLERY</a></li>
-		<li><a href="#">HOME</a></li>
+		<li><a href="#Home">HOME</a></li>
 		<img class="hi" src="./fine.jpg"  alt="fine">
 	</ul>
 
@@ -29,13 +31,101 @@
 
 
 
-<p>I'm a Software Engineer,Front-end Developer, Peer counscellor<br> , Graphic designer and Enterpreneur with a proven track record <br>of delivering result, wants the opportunity to demonstrate my <br>skills and support the growth of organisation through ICT and<br> STEM skills. </p>
+<p class="amaa">I'm a Software Engineer,Front-end Developer, Peer counscellor<br> , Graphic designer and Enterpreneur with a proven track record <br>of delivering result, wants the opportunity to demonstrate my <br>skills and support the growth of organisation through ICT and<br> STEM skills. </p>
+
+
+<div id="Experience">
+<h3  class="EXPERIENCE">EXPERIENCE</h3>
+<p class="EXP">Let's dive into some of my experience!</p><br><br>
+<p class="MYEXP"><br>
+Experienced Administrative Assistant with a demonstrated histroy <br><br>
+of working in the non-profit organization management industry.<br><br>
+Skilled in Peer Support, Microftwoft Word, Wordpress, C++<br><br>
+ Java,MySQL and Presentation Skills.<br><br>
+I'm also Front-end developer<br><br>
+(HTML, CSS, JAVASCRIPT, BOOTSTRAP)  <br><br>
+with a Bachelor of Science - BS focused in<br><br>
+ Computer Science and Engineering from <br><br>
+ University of Mines and Technology,Tarkwa.</p><br>
+ <img  class="img"src="exp.jpg" alt="exp">
+</div>
 
 	<div id="Gallery">
-		<h3>Gallery</h3>
-		<p>Here are some of my projects!</p>
-	</div>
+		<h3 class="Gallery">Gallery</h3>
+		<p class="Gallery1">Here are some of my projects in Graphic design!</p>
 
-<footer>ALL THE BEST!</footer>
+<div class="w3-content w3-display-container">
+
+	<img class="mySlides" src="or2.png" style="width:100%">
+	<img class="mySlides" src="final.png" style="width:100%">
+  <img class="mySlides" src="vals.png" style="width:100%">
+  <img class="mySlides" src="Sun2.png" style="width:100%">
+  <img class="mySlides" src="NAMING2.png" style="width:100%">
+  <img class="mySlides" src="Ube1.png" style="width:100%">
+  <img class="mySlides" src="birthday2.png" style="width:100%">
+  <img class="mySlides" src="Liquid1soap.png" style="width:100%">
+   <img class="mySlides" src="ch.png" style="width:100%">
+    <img class="mySlides" src="ch1.jpg" style="width:100%">
+     <img class="mySlides" src="agcm.png" style="width:100%">
+      <img class="mySlides" src="nice.png" style="width:100%">
+       <img class="mySlides" src="final2fund.png" style="width:100%">
+        <img class="mySlides" src="CRUDE.png" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+<div id="Contact">
+	<h3 class="CONTACT">Contact me</h3>
+<p class="gal">Book your appointment and let's talk about business now!</p>
+
+<div class="myform">
+	<fieldset>
+	<legend>Apointment booking</legend>
+<form >
+
+	First name:<br>
+  <input type="text" name="firstname" placeholder="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname" placeholder="lastname"><br>
+  <input type="submit" value="Submit">
+
+</form>
+</fieldset>
+</div>
+</div>
+
+
+<a href="#" class="button" style="vertical-align:middle"><span><button>Send me back </button></a></span>
+
+<footer><p>Copyright &#169 2022.
+All Rights Reserved.</p></footer>
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
